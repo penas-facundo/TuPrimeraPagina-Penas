@@ -1,0 +1,1 @@
+# Simulado - Aquí iría la configuración del proyecto

@@ -1,0 +1,11 @@
+{% extends 'blog/base.html' %}
+{% block contenido %}
+<h2>Resultados</h2>
+<ul>
+{% for articulo in resultados %}
+    <li>{{ articulo.titulo }} - {{ articulo.autor }}</li>
+{% empty %}
+    <li>No se encontraron artículos.</li>
+{% endfor %}
+</ul>
+{% endblock %}

@@ -1,0 +1,8 @@
+{% extends 'blog/base.html' %}
+{% block contenido %}
+<h2>Buscar Artículo</h2>
+<form method="post">{% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="Buscar">
+</form>
+{% endblock %}

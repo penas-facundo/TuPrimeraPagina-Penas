@@ -1,0 +1,8 @@
+{% extends 'blog/base.html' %}
+{% block contenido %}
+<h2>Crear Categoría</h2>
+<form method="post">{% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="Guardar">
+</form>
+{% endblock %}

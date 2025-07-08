@@ -1,0 +1,1 @@
+# Simulado - WSGI para despliegue
